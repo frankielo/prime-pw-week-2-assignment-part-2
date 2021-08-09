@@ -26,10 +26,11 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we make a variable called name and set it to the name Dane.
+// we check if name is equal to Mary then console log 'Hi, Mary!'.
+// if the name is not mary,
+//then console log 'How do you do?' 
+
 
 //CODE
 /*
@@ -45,10 +46,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we declared a variable called secret.
+// we make a variable called code and set it to the value of 123.
+// if code is exactly 123 then secret is super and code is code *2
+//if code is greater then 250 then secret is duper
 
 //CODE
 /*
@@ -70,10 +71,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we set a variable called isStudent that equals true.
+// we make a variable called age and set a value of 34.
+// we create a variable called zip and set a value of 55407.
+//then if isStudent equals to true and zip is greater then 80000 then console log 'you're a student on the West Coast'.
+// if not then if isStudent equals to false and age is less then 30 then console log 'what are your hobbies'.
+//or else if isStudent equals to true then console log 'Welcome to prime'.
+//or else if none of the above is true then console log 'How about the weather'
 
 //CODE
 /*
@@ -129,12 +133,15 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
-/*
+/* 
+// FIX - colorOne should be set to 'blue' 
 let colorOne = 'red';
+//FIX - colorTwo should be set to 'red'
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+  //FiX add colorTwo = to purple ex: colorTwo = 'purple';
   colorOne = 'purple';
 }
 */
@@ -146,7 +153,7 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+//FIX instead of || add && which would make it true.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,8 +167,11 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+//FIX we would change minAge to age, then change less then sign to greater then sign, after change age to minAge.
 if(minAge <= age) {
+//FIX the first console log should equal to 'enter'.
   console.log('no entry');
+  the second console log should equal to 'no entry'.
 } else {
   console.log('enter');
 }
